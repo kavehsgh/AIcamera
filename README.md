@@ -1,5 +1,6 @@
   # AIcamera1
-AIcamera1 -- For Towing Companies 
+AIcamera1 -- For Towing Companies
+Detect if there is a car on truck or not then return the status to an amazon server with the GPS coordinates. There was a website for that to handle the data sending from this system.
 
 # AIcamera project branches
 main  
