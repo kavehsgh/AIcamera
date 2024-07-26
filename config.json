@@ -1,0 +1,33 @@
+{
+    "backend_url": "https://dev-app-api.foxtow.com/mdttrans/tow_truck_status",
+    "label_map": [
+        "background",
+        "aeroplane",
+        "bicycle",
+        "bird",
+        "boat",
+        "bottle",
+        "bus",
+        "car",
+        "cat",
+        "chair",
+        "cow",
+        "diningtable",
+        "dog",
+        "horse",
+        "motorbike",
+        "person",
+        "pottedplant",
+        "sheep",
+        "sofa",
+        "train",
+        "tvmonitor"
+    ],
+    "min_bbox_size": 500,
+    "gps_publish_rate": 10.0,
+    "camera_detection_rate": 300,
+    "stability_frames": 30,
+    "video_path": "camera101_Petro_Company_2024-06-13_10-55-40AM_Thursday.mp4",
+    "model_path": "./models/mobilenet-ssd_openvino_2021.4_8shave.blob",
+    "dataset_path": "/home/pi/tow-pro-vision/data/dataset.csv"
+}
